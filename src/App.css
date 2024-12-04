@@ -1,0 +1,127 @@
+/* Variables */
+:root {
+  --background-color: #f3f5f8;
+  --purple-color: #5a57cb;
+}
+
+.column-date_container {
+  display: flex;
+  gap: 10px;
+
+  .column-date-text {
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 13.62px;
+    text-transform: uppercase;
+    color: #6A7988
+  }
+}
+
+.container-workout-card {
+  background-color: var(--background-color);
+  width: 179px;
+  padding: 7px;
+  border-radius: 6px;
+  min-height: 100vh;
+  padding-top: 9px;
+  padding-bottom: 9px;
+
+  .container-workout-card_header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .column-date {
+    color: #728096;
+  }
+  
+  .column-current-date {
+    color: var(--purple-color);
+  }
+  
+  .column-date,
+  .column-current-date {
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 15px;
+  }
+}
+
+.workout-card {
+  background-color: #FFFFFFCC;
+  padding: 5px 8px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  margin-bottom: 5px;
+
+  .workout-card_header {
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 700;
+    color: var(--purple-color);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-right: 10px;
+  }
+
+  .workout-card_header_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .add-btn {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+.exercise-card {
+  border: 1px solid #DFDFDF;
+  border-radius: 6px;
+  margin-bottom: 4px;
+  width: 159px;
+
+  .exercise-card-text {
+    text-align: right;
+    display: block;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 17.7px;
+    padding: 5px 9px;
+    color: #000000;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-left: 30px;
+  }
+
+  .exercise-card-text_container {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .exercise-card-text-set-count {
+    font-size: 10px;
+    font-weight: 700;
+    text-align: right;
+    color: #919CAD;
+    margin-right: 16px;
+  }
+
+  .exercise-card-text-sets {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 13.62px;
+    text-align: right;
+    color: #95A6B7;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
